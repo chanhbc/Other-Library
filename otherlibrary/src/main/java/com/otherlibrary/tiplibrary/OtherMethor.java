@@ -59,7 +59,7 @@ public class OtherMethor {
             if (!AppPref.getPref(context).getBoolean(AppPref.START_ON, false))
                 new AlertDialog.Builder(context)
                         .setTitle("Notification")
-                        .setMessage("Device Xiaomi need auto start permission ,you can turn on this permission ?")
+                        .setMessage("Device Xiaomi need auto start permission, you can turn on this permission ?")
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -82,7 +82,7 @@ public class OtherMethor {
             if (!AppPref.getPref(context).getBoolean(AppPref.START_ON, false))
                 new AlertDialog.Builder(context)
                         .setTitle("Notification")
-                        .setMessage("Device Huawei need auto start permission ,you can turn on this permission ?")
+                        .setMessage("Device Huawei need auto start permission, you can turn on this permission ?")
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
